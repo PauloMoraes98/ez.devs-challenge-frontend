@@ -1,0 +1,112 @@
+.create-post-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.create-post-container form {
+    width: 100%;
+    max-width: 700px;
+    margin-right: 30px;
+}
+
+.create-post-container section.form form {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.list-post-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.list-post-container ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.list-post-container ul li {
+    background: #ffffff ;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.list-post-container ul li strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #41414d;
+}
+
+.list-post-container ul li p + strong {
+    margin-top: 20px;
+}
+
+.list-post-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+.list-post-container select {
+    margin-top: 15px;
+}
+
+.list-post-container textarea {
+    margin-top: 15px;
+}
+
+.create-post-container form .input-group select {
+    width: 100%;
+}
+
+.style-button {
+    width: 100%;
+    max-width: 1120px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style-button button {
+    height: 30px;
+    margin-top: 50px;
+}
+
+.btnCancelar {
+    background: rgb(128, 125, 125);
+}
+
+.btnExcluir{
+    background: rgb(128, 125, 125);
+    position: absolute;
+    right: 24px;
+    top: 74px;
+    height: 30px;
+    margin-top: 0px;
+}
+
+.btnEditar{
+    position: absolute;
+    right: 24px;
+    top: 22px;
+    height: 30px;
+    margin-right: 120px;
+    margin-top: 0px;
+}
